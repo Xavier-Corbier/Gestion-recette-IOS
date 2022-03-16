@@ -1,0 +1,968 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F124F0127CFCEA500DF8BE9 /* CategorieRecetteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F124F0027CFCEA500DF8BE9 /* CategorieRecetteService.swift */; };
+		6F124F0427CFCF6C00DF8BE9 /* CategorieRecetteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F124F0327CFCF6C00DF8BE9 /* CategorieRecetteViewModel.swift */; };
+		6F124F0627CFD9F800DF8BE9 /* FicheTechniqueDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F124F0527CFD9F800DF8BE9 /* FicheTechniqueDetailView.swift */; };
+		6F124F0827CFDA5F00DF8BE9 /* FicheTechniqueDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F124F0727CFDA5F00DF8BE9 /* FicheTechniqueDetailViewModel.swift */; };
+		6F124F0A27D00ACB00DF8BE9 /* Etiquette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F124F0927D00ACA00DF8BE9 /* Etiquette.swift */; };
+		6F124F0C27D0125A00DF8BE9 /* DenreeEtiquette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F124F0B27D0125A00DF8BE9 /* DenreeEtiquette.swift */; };
+		6F124F0E27D0186900DF8BE9 /* EtiquetteDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F124F0D27D0186900DF8BE9 /* EtiquetteDTO.swift */; };
+		6F124F1027D01D4900DF8BE9 /* EtiquetteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F124F0F27D01D4900DF8BE9 /* EtiquetteService.swift */; };
+		6F124F1327D01F9A00DF8BE9 /* EtiquetteIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F124F1227D01F9A00DF8BE9 /* EtiquetteIntent.swift */; };
+		6F124F1527D01FAF00DF8BE9 /* EtiquetteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F124F1427D01FAF00DF8BE9 /* EtiquetteViewModel.swift */; };
+		6F124F1727D0340800DF8BE9 /* PDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F124F1627D0340800DF8BE9 /* PDF.swift */; };
+		6F124F1B27D156BA00DF8BE9 /* head-fiche.html in Resources */ = {isa = PBXBuildFile; fileRef = 6F124F1A27D156BA00DF8BE9 /* head-fiche.html */; };
+		6F124F1D27D158F700DF8BE9 /* etape.html in Resources */ = {isa = PBXBuildFile; fileRef = 6F124F1C27D158F700DF8BE9 /* etape.html */; };
+		6F124F1F27D15DE900DF8BE9 /* materiel.html in Resources */ = {isa = PBXBuildFile; fileRef = 6F124F1E27D15DE900DF8BE9 /* materiel.html */; };
+		6F124F2127D165E800DF8BE9 /* MaterielView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F124F2027D165E800DF8BE9 /* MaterielView.swift */; };
+		6F124F2327D1661D00DF8BE9 /* EtapeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F124F2227D1661D00DF8BE9 /* EtapeDetailView.swift */; };
+		6F124F2527D1665F00DF8BE9 /* EtapeFicheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F124F2427D1665F00DF8BE9 /* EtapeFicheView.swift */; };
+		6F124F2727D1712300DF8BE9 /* DenreesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F124F2627D1712300DF8BE9 /* DenreesView.swift */; };
+		6F124F2927D1760B00DF8BE9 /* GestionCoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F124F2827D1760B00DF8BE9 /* GestionCoutView.swift */; };
+		6F124F2B27D183D000DF8BE9 /* head-etiquette.html in Resources */ = {isa = PBXBuildFile; fileRef = 6F124F2A27D183D000DF8BE9 /* head-etiquette.html */; };
+		6F124F2D27D1852500DF8BE9 /* denree.html in Resources */ = {isa = PBXBuildFile; fileRef = 6F124F2C27D1852500DF8BE9 /* denree.html */; };
+		6F124F2F27D185C300DF8BE9 /* footer-etiquette.html in Resources */ = {isa = PBXBuildFile; fileRef = 6F124F2E27D185C300DF8BE9 /* footer-etiquette.html */; };
+		6F3B829527BE7B6D00428123 /* ProjetAWI_IOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3B829427BE7B6D00428123 /* ProjetAWI_IOSApp.swift */; };
+		6F3B829927BE7B6E00428123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F3B829827BE7B6E00428123 /* Assets.xcassets */; };
+		6F3B829C27BE7B6E00428123 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F3B829B27BE7B6E00428123 /* Preview Assets.xcassets */; };
+		6F3B82A827BE8F4E00428123 /* FicheTechniqueListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3B82A727BE8F4E00428123 /* FicheTechniqueListView.swift */; };
+		6F3B82AA27BE916400428123 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3B82A927BE916400428123 /* MenuView.swift */; };
+		6F3B82AC27BFB98200428123 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3B82AB27BFB98200428123 /* UIColor.swift */; };
+		6F3B82B327BFC47600428123 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3B82B227BFC47600428123 /* Color.swift */; };
+		6F3B82B827C10DCC00428123 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F3B82B727C10DCC00428123 /* GoogleService-Info.plist */; };
+		6F3B82BB27C10F0F00428123 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6F3B82BA27C10F0F00428123 /* FirebaseFirestore */; };
+		6F3B82BD27C10F0F00428123 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 6F3B82BC27C10F0F00428123 /* FirebaseFirestoreSwift-Beta */; };
+		6F3B82BF27C10F8400428123 /* UtilisateurDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3B82BE27C10F8300428123 /* UtilisateurDTO.swift */; };
+		6F3B82C227C1102700428123 /* Utilisateur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3B82C127C1102700428123 /* Utilisateur.swift */; };
+		6F3B82C627C118AE00428123 /* UtilisateurListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3B82C527C118AE00428123 /* UtilisateurListViewModel.swift */; };
+		6F3B82C827C1196700428123 /* UtilisateurIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3B82C727C1196700428123 /* UtilisateurIntent.swift */; };
+		6F3B82CB27C11B1100428123 /* UtilisateurViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3B82CA27C11B1100428123 /* UtilisateurViewModel.swift */; };
+		6F3B82CF27C11D9C00428123 /* UtilisateurListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3B82CE27C11D9C00428123 /* UtilisateurListView.swift */; };
+		6F3B82D627C12A7500428123 /* UtilisateurDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3B82D527C12A7500428123 /* UtilisateurDetailView.swift */; };
+		6F3B82DD27C4C45600428123 /* UtilisateurService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3B82DC27C4C45600428123 /* UtilisateurService.swift */; };
+		6F7B59FF27CD3CEF009E59BA /* FicheTechniqueService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7B59FE27CD3CEF009E59BA /* FicheTechniqueService.swift */; };
+		6F7B5A0527CE78A4009E59BA /* HeaderFTDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7B5A0427CE78A4009E59BA /* HeaderFTDTO.swift */; };
+		6F7B5A0727CE78B4009E59BA /* FicheTechniqueDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7B5A0627CE78B4009E59BA /* FicheTechniqueDTO.swift */; };
+		6F7B5A0927CE7BA4009E59BA /* EtapeDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7B5A0827CE7BA4009E59BA /* EtapeDTO.swift */; };
+		6F7B5A0B27CE7C3A009E59BA /* DenreeDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7B5A0A27CE7C3A009E59BA /* DenreeDTO.swift */; };
+		6F7B5A0D27CE7C68009E59BA /* DescriptionDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7B5A0C27CE7C68009E59BA /* DescriptionDTO.swift */; };
+		6F7B5A1027CE8E20009E59BA /* FicheTechniqueListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7B5A0F27CE8E20009E59BA /* FicheTechniqueListViewModel.swift */; };
+		6F7B5A1227CE8F3E009E59BA /* FicheTechniqueIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7B5A1127CE8F3E009E59BA /* FicheTechniqueIntent.swift */; };
+		6F7B5A1427CFBEF8009E59BA /* VenteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7B5A1327CFBEF8009E59BA /* VenteService.swift */; };
+		6F7B5A1627CFBF9E009E59BA /* Vente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7B5A1527CFBF9E009E59BA /* Vente.swift */; };
+		6F7B5A1827CFC6B0009E59BA /* VenteDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7B5A1727CFC6B0009E59BA /* VenteDTO.swift */; };
+		6F7B5A1B27CFC86A009E59BA /* VenteIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7B5A1A27CFC86A009E59BA /* VenteIntent.swift */; };
+		6F7B5A1D27CFC89E009E59BA /* VenteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7B5A1C27CFC89E009E59BA /* VenteViewModel.swift */; };
+		6FB6532427C51D720074EC91 /* ConnexionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6532327C51D720074EC91 /* ConnexionView.swift */; };
+		6FB6532627C675480074EC91 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6532527C675480074EC91 /* Store.swift */; };
+		6FB6532827C675810074EC91 /* StoreDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6532727C675810074EC91 /* StoreDTO.swift */; };
+		6FB6532A27C675C30074EC91 /* StoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6532927C675C30074EC91 /* StoreService.swift */; };
+		6FB6532D27C676010074EC91 /* StoreIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6532C27C676010074EC91 /* StoreIntent.swift */; };
+		6FB6532F27C676210074EC91 /* StoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6532E27C676210074EC91 /* StoreViewModel.swift */; };
+		6FB6533227C676510074EC91 /* PreferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6533127C676510074EC91 /* PreferenceView.swift */; };
+		6FB6533427C678010074EC91 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6533327C678010074EC91 /* Ingredient.swift */; };
+		6FB6533627C678230074EC91 /* Allergène.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6533527C678230074EC91 /* Allergène.swift */; };
+		6FB6533827C679080074EC91 /* IngredientDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6533727C679080074EC91 /* IngredientDTO.swift */; };
+		6FB6533A27C6794F0074EC91 /* AllergèneDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6533927C6794F0074EC91 /* AllergèneDTO.swift */; };
+		6FB6533C27C6798C0074EC91 /* IngredientService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6533B27C6798C0074EC91 /* IngredientService.swift */; };
+		6FB6533F27C67A090074EC91 /* IngredientListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6533E27C67A090074EC91 /* IngredientListViewModel.swift */; };
+		6FB6534127C67BA00074EC91 /* IngredientIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6534027C67BA00074EC91 /* IngredientIntent.swift */; };
+		6FB6534427C67CE90074EC91 /* IngredientListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6534327C67CE90074EC91 /* IngredientListView.swift */; };
+		6FB6534627C6DB870074EC91 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6534527C6DB870074EC91 /* String.swift */; };
+		6FB6534827C767B20074EC91 /* AllergèneService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6534727C767B20074EC91 /* AllergèneService.swift */; };
+		6FB6534B27C76BB60074EC91 /* AllergèneIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6534A27C76BB60074EC91 /* AllergèneIntent.swift */; };
+		6FB6534D27C76BCB0074EC91 /* AllergèneListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6534C27C76BCB0074EC91 /* AllergèneListViewModel.swift */; };
+		6FB6535027C76DAD0074EC91 /* AllergèneListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6534F27C76DAD0074EC91 /* AllergèneListView.swift */; };
+		6FB6535227C7BC9C0074EC91 /* AllergèneDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6535127C7BC9C0074EC91 /* AllergèneDetailView.swift */; };
+		6FB6535427C7BDCA0074EC91 /* AllergèneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6535327C7BDCA0074EC91 /* AllergèneViewModel.swift */; };
+		6FB6535627C80F880074EC91 /* AllergèneCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6535527C80F880074EC91 /* AllergèneCreateView.swift */; };
+		6FB6535827C8C3170074EC91 /* GestionCompteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6535727C8C3170074EC91 /* GestionCompteView.swift */; };
+		6FB6535A27C9095C0074EC91 /* IngredientDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6535927C9095C0074EC91 /* IngredientDetailView.swift */; };
+		6FB6535C27C90AB60074EC91 /* IngredientViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6535B27C90AB60074EC91 /* IngredientViewModel.swift */; };
+		6FB6536127CBE6980074EC91 /* IngredientCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6536027CBE6980074EC91 /* IngredientCreateView.swift */; };
+		6FB6536327CBFE900074EC91 /* CategorieIngredientService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6536227CBFE900074EC91 /* CategorieIngredientService.swift */; };
+		6FB6536627CC016E0074EC91 /* CategorieIngredientViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6536527CC016E0074EC91 /* CategorieIngredientViewModel.swift */; };
+		6FB6536A27CCF0710074EC91 /* MultipleSelectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6536927CCF0710074EC91 /* MultipleSelectionRow.swift */; };
+		6FB6536C27CCFD4F0074EC91 /* MultipleSelectionAllergène.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6536B27CCFD4F0074EC91 /* MultipleSelectionAllergène.swift */; };
+		6FB6537027CD227C0074EC91 /* Denree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6536F27CD227C0074EC91 /* Denree.swift */; };
+		6FB6537227CD24120074EC91 /* Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6537127CD24120074EC91 /* Description.swift */; };
+		6FB6537427CD255D0074EC91 /* Etape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6537327CD255D0074EC91 /* Etape.swift */; };
+		6FB6537627CD27BC0074EC91 /* HeaderFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6537527CD27BC0074EC91 /* HeaderFT.swift */; };
+		6FB6537827CD2F790074EC91 /* FicheTechnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6537727CD2F790074EC91 /* FicheTechnique.swift */; };
+		6FBF526827D28C1000EB79E8 /* ChoixAjoutEtapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBF526727D28C1000EB79E8 /* ChoixAjoutEtapeView.swift */; };
+		6FBF526A27D2A43900EB79E8 /* EtapeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBF526927D2A43900EB79E8 /* EtapeDetailViewModel.swift */; };
+		6FBF526C27D2B69D00EB79E8 /* PrintFicheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBF526B27D2B69D00EB79E8 /* PrintFicheView.swift */; };
+		6FBF526E27D2C04000EB79E8 /* PrintEtiquetteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBF526D27D2C04000EB79E8 /* PrintEtiquetteView.swift */; };
+		6FBF527027D2C91F00EB79E8 /* VenteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBF526F27D2C91F00EB79E8 /* VenteView.swift */; };
+		6FBF527227D2D3FE00EB79E8 /* couts.html in Resources */ = {isa = PBXBuildFile; fileRef = 6FBF527127D2D3FE00EB79E8 /* couts.html */; };
+		6FBF527427D34A3F00EB79E8 /* ChoixAjoutIngredientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBF527327D34A3F00EB79E8 /* ChoixAjoutIngredientView.swift */; };
+		6FBF527627D36D1500EB79E8 /* EtapeIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBF527527D36D1500EB79E8 /* EtapeIntent.swift */; };
+		6FBF527827D393AD00EB79E8 /* MutipleSelectionIngredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBF527727D393AD00EB79E8 /* MutipleSelectionIngredient.swift */; };
+		6FBF527A27D41CED00EB79E8 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBF527927D41CED00EB79E8 /* Double.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F124F0027CFCEA500DF8BE9 /* CategorieRecetteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorieRecetteService.swift; sourceTree = "<group>"; };
+		6F124F0327CFCF6C00DF8BE9 /* CategorieRecetteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorieRecetteViewModel.swift; sourceTree = "<group>"; };
+		6F124F0527CFD9F800DF8BE9 /* FicheTechniqueDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FicheTechniqueDetailView.swift; sourceTree = "<group>"; };
+		6F124F0727CFDA5F00DF8BE9 /* FicheTechniqueDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FicheTechniqueDetailViewModel.swift; sourceTree = "<group>"; };
+		6F124F0927D00ACA00DF8BE9 /* Etiquette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Etiquette.swift; sourceTree = "<group>"; };
+		6F124F0B27D0125A00DF8BE9 /* DenreeEtiquette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DenreeEtiquette.swift; sourceTree = "<group>"; };
+		6F124F0D27D0186900DF8BE9 /* EtiquetteDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtiquetteDTO.swift; sourceTree = "<group>"; };
+		6F124F0F27D01D4900DF8BE9 /* EtiquetteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtiquetteService.swift; sourceTree = "<group>"; };
+		6F124F1227D01F9A00DF8BE9 /* EtiquetteIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtiquetteIntent.swift; sourceTree = "<group>"; };
+		6F124F1427D01FAF00DF8BE9 /* EtiquetteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtiquetteViewModel.swift; sourceTree = "<group>"; };
+		6F124F1627D0340800DF8BE9 /* PDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDF.swift; sourceTree = "<group>"; };
+		6F124F1827D109E900DF8BE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6F124F1A27D156BA00DF8BE9 /* head-fiche.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "head-fiche.html"; sourceTree = "<group>"; };
+		6F124F1C27D158F700DF8BE9 /* etape.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = etape.html; sourceTree = "<group>"; };
+		6F124F1E27D15DE900DF8BE9 /* materiel.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = materiel.html; sourceTree = "<group>"; };
+		6F124F2027D165E800DF8BE9 /* MaterielView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterielView.swift; sourceTree = "<group>"; };
+		6F124F2227D1661D00DF8BE9 /* EtapeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtapeDetailView.swift; sourceTree = "<group>"; };
+		6F124F2427D1665F00DF8BE9 /* EtapeFicheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtapeFicheView.swift; sourceTree = "<group>"; };
+		6F124F2627D1712300DF8BE9 /* DenreesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DenreesView.swift; sourceTree = "<group>"; };
+		6F124F2827D1760B00DF8BE9 /* GestionCoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestionCoutView.swift; sourceTree = "<group>"; };
+		6F124F2A27D183D000DF8BE9 /* head-etiquette.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "head-etiquette.html"; sourceTree = "<group>"; };
+		6F124F2C27D1852500DF8BE9 /* denree.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = denree.html; sourceTree = "<group>"; };
+		6F124F2E27D185C300DF8BE9 /* footer-etiquette.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "footer-etiquette.html"; sourceTree = "<group>"; };
+		6F3B829127BE7B6D00428123 /* ProjetAWI-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ProjetAWI-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F3B829427BE7B6D00428123 /* ProjetAWI_IOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjetAWI_IOSApp.swift; sourceTree = "<group>"; };
+		6F3B829827BE7B6E00428123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F3B829B27BE7B6E00428123 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6F3B82A727BE8F4E00428123 /* FicheTechniqueListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FicheTechniqueListView.swift; sourceTree = "<group>"; };
+		6F3B82A927BE916400428123 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		6F3B82AB27BFB98200428123 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		6F3B82B227BFC47600428123 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		6F3B82B727C10DCC00428123 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6F3B82BE27C10F8300428123 /* UtilisateurDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilisateurDTO.swift; sourceTree = "<group>"; };
+		6F3B82C127C1102700428123 /* Utilisateur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilisateur.swift; sourceTree = "<group>"; };
+		6F3B82C527C118AE00428123 /* UtilisateurListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilisateurListViewModel.swift; sourceTree = "<group>"; };
+		6F3B82C727C1196700428123 /* UtilisateurIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilisateurIntent.swift; sourceTree = "<group>"; };
+		6F3B82CA27C11B1100428123 /* UtilisateurViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilisateurViewModel.swift; sourceTree = "<group>"; };
+		6F3B82CE27C11D9C00428123 /* UtilisateurListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilisateurListView.swift; sourceTree = "<group>"; };
+		6F3B82D527C12A7500428123 /* UtilisateurDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilisateurDetailView.swift; sourceTree = "<group>"; };
+		6F3B82DC27C4C45600428123 /* UtilisateurService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilisateurService.swift; sourceTree = "<group>"; };
+		6F7B59FE27CD3CEF009E59BA /* FicheTechniqueService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FicheTechniqueService.swift; sourceTree = "<group>"; };
+		6F7B5A0427CE78A4009E59BA /* HeaderFTDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderFTDTO.swift; sourceTree = "<group>"; };
+		6F7B5A0627CE78B4009E59BA /* FicheTechniqueDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FicheTechniqueDTO.swift; sourceTree = "<group>"; };
+		6F7B5A0827CE7BA4009E59BA /* EtapeDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtapeDTO.swift; sourceTree = "<group>"; };
+		6F7B5A0A27CE7C3A009E59BA /* DenreeDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DenreeDTO.swift; sourceTree = "<group>"; };
+		6F7B5A0C27CE7C68009E59BA /* DescriptionDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionDTO.swift; sourceTree = "<group>"; };
+		6F7B5A0F27CE8E20009E59BA /* FicheTechniqueListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FicheTechniqueListViewModel.swift; sourceTree = "<group>"; };
+		6F7B5A1127CE8F3E009E59BA /* FicheTechniqueIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FicheTechniqueIntent.swift; sourceTree = "<group>"; };
+		6F7B5A1327CFBEF8009E59BA /* VenteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenteService.swift; sourceTree = "<group>"; };
+		6F7B5A1527CFBF9E009E59BA /* Vente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vente.swift; sourceTree = "<group>"; };
+		6F7B5A1727CFC6B0009E59BA /* VenteDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenteDTO.swift; sourceTree = "<group>"; };
+		6F7B5A1A27CFC86A009E59BA /* VenteIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenteIntent.swift; sourceTree = "<group>"; };
+		6F7B5A1C27CFC89E009E59BA /* VenteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenteViewModel.swift; sourceTree = "<group>"; };
+		6FB6532327C51D720074EC91 /* ConnexionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnexionView.swift; sourceTree = "<group>"; };
+		6FB6532527C675480074EC91 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		6FB6532727C675810074EC91 /* StoreDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDTO.swift; sourceTree = "<group>"; };
+		6FB6532927C675C30074EC91 /* StoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreService.swift; sourceTree = "<group>"; };
+		6FB6532C27C676010074EC91 /* StoreIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreIntent.swift; sourceTree = "<group>"; };
+		6FB6532E27C676210074EC91 /* StoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewModel.swift; sourceTree = "<group>"; };
+		6FB6533127C676510074EC91 /* PreferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceView.swift; sourceTree = "<group>"; };
+		6FB6533327C678010074EC91 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		6FB6533527C678230074EC91 /* Allergène.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Allergène.swift"; sourceTree = "<group>"; };
+		6FB6533727C679080074EC91 /* IngredientDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientDTO.swift; sourceTree = "<group>"; };
+		6FB6533927C6794F0074EC91 /* AllergèneDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AllergèneDTO.swift"; sourceTree = "<group>"; };
+		6FB6533B27C6798C0074EC91 /* IngredientService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientService.swift; sourceTree = "<group>"; };
+		6FB6533E27C67A090074EC91 /* IngredientListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientListViewModel.swift; sourceTree = "<group>"; };
+		6FB6534027C67BA00074EC91 /* IngredientIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientIntent.swift; sourceTree = "<group>"; };
+		6FB6534327C67CE90074EC91 /* IngredientListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientListView.swift; sourceTree = "<group>"; };
+		6FB6534527C6DB870074EC91 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		6FB6534727C767B20074EC91 /* AllergèneService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AllergèneService.swift"; sourceTree = "<group>"; };
+		6FB6534A27C76BB60074EC91 /* AllergèneIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AllergèneIntent.swift"; sourceTree = "<group>"; };
+		6FB6534C27C76BCB0074EC91 /* AllergèneListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AllergèneListViewModel.swift"; sourceTree = "<group>"; };
+		6FB6534F27C76DAD0074EC91 /* AllergèneListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AllergèneListView.swift"; sourceTree = "<group>"; };
+		6FB6535127C7BC9C0074EC91 /* AllergèneDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AllergèneDetailView.swift"; sourceTree = "<group>"; };
+		6FB6535327C7BDCA0074EC91 /* AllergèneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AllergèneViewModel.swift"; sourceTree = "<group>"; };
+		6FB6535527C80F880074EC91 /* AllergèneCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AllergèneCreateView.swift"; sourceTree = "<group>"; };
+		6FB6535727C8C3170074EC91 /* GestionCompteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestionCompteView.swift; sourceTree = "<group>"; };
+		6FB6535927C9095C0074EC91 /* IngredientDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientDetailView.swift; sourceTree = "<group>"; };
+		6FB6535B27C90AB60074EC91 /* IngredientViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientViewModel.swift; sourceTree = "<group>"; };
+		6FB6536027CBE6980074EC91 /* IngredientCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientCreateView.swift; sourceTree = "<group>"; };
+		6FB6536227CBFE900074EC91 /* CategorieIngredientService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorieIngredientService.swift; sourceTree = "<group>"; };
+		6FB6536527CC016E0074EC91 /* CategorieIngredientViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorieIngredientViewModel.swift; sourceTree = "<group>"; };
+		6FB6536927CCF0710074EC91 /* MultipleSelectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSelectionRow.swift; sourceTree = "<group>"; };
+		6FB6536B27CCFD4F0074EC91 /* MultipleSelectionAllergène.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MultipleSelectionAllergène.swift"; sourceTree = "<group>"; };
+		6FB6536F27CD227C0074EC91 /* Denree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Denree.swift; sourceTree = "<group>"; };
+		6FB6537127CD24120074EC91 /* Description.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Description.swift; sourceTree = "<group>"; };
+		6FB6537327CD255D0074EC91 /* Etape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Etape.swift; sourceTree = "<group>"; };
+		6FB6537527CD27BC0074EC91 /* HeaderFT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderFT.swift; sourceTree = "<group>"; };
+		6FB6537727CD2F790074EC91 /* FicheTechnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FicheTechnique.swift; sourceTree = "<group>"; };
+		6FBF526727D28C1000EB79E8 /* ChoixAjoutEtapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoixAjoutEtapeView.swift; sourceTree = "<group>"; };
+		6FBF526927D2A43900EB79E8 /* EtapeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtapeDetailViewModel.swift; sourceTree = "<group>"; };
+		6FBF526B27D2B69D00EB79E8 /* PrintFicheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintFicheView.swift; sourceTree = "<group>"; };
+		6FBF526D27D2C04000EB79E8 /* PrintEtiquetteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintEtiquetteView.swift; sourceTree = "<group>"; };
+		6FBF526F27D2C91F00EB79E8 /* VenteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenteView.swift; sourceTree = "<group>"; };
+		6FBF527127D2D3FE00EB79E8 /* couts.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = couts.html; sourceTree = "<group>"; };
+		6FBF527327D34A3F00EB79E8 /* ChoixAjoutIngredientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoixAjoutIngredientView.swift; sourceTree = "<group>"; };
+		6FBF527527D36D1500EB79E8 /* EtapeIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtapeIntent.swift; sourceTree = "<group>"; };
+		6FBF527727D393AD00EB79E8 /* MutipleSelectionIngredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutipleSelectionIngredient.swift; sourceTree = "<group>"; };
+		6FBF527927D41CED00EB79E8 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F3B828E27BE7B6D00428123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F3B82BB27C10F0F00428123 /* FirebaseFirestore in Frameworks */,
+				6F3B82BD27C10F0F00428123 /* FirebaseFirestoreSwift-Beta in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F124F0227CFCF5700DF8BE9 /* Categorie-Recette */ = {
+			isa = PBXGroup;
+			children = (
+				6F124F0327CFCF6C00DF8BE9 /* CategorieRecetteViewModel.swift */,
+			);
+			path = "Categorie-Recette";
+			sourceTree = "<group>";
+		};
+		6F124F1127D01F8800DF8BE9 /* Etiquette */ = {
+			isa = PBXGroup;
+			children = (
+				6F124F1227D01F9A00DF8BE9 /* EtiquetteIntent.swift */,
+				6F124F1427D01FAF00DF8BE9 /* EtiquetteViewModel.swift */,
+			);
+			path = Etiquette;
+			sourceTree = "<group>";
+		};
+		6F124F1927D1566B00DF8BE9 /* template-pdf */ = {
+			isa = PBXGroup;
+			children = (
+				6F124F1A27D156BA00DF8BE9 /* head-fiche.html */,
+				6F124F1C27D158F700DF8BE9 /* etape.html */,
+				6F124F1E27D15DE900DF8BE9 /* materiel.html */,
+				6F124F2A27D183D000DF8BE9 /* head-etiquette.html */,
+				6F124F2C27D1852500DF8BE9 /* denree.html */,
+				6F124F2E27D185C300DF8BE9 /* footer-etiquette.html */,
+				6FBF527127D2D3FE00EB79E8 /* couts.html */,
+			);
+			path = "template-pdf";
+			sourceTree = "<group>";
+		};
+		6F3B828827BE7B6D00428123 = {
+			isa = PBXGroup;
+			children = (
+				6F3B829327BE7B6D00428123 /* ProjetAWI-IOS */,
+				6F3B829227BE7B6D00428123 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F3B829227BE7B6D00428123 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F3B829127BE7B6D00428123 /* ProjetAWI-IOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F3B829327BE7B6D00428123 /* ProjetAWI-IOS */ = {
+			isa = PBXGroup;
+			children = (
+				6F124F1927D1566B00DF8BE9 /* template-pdf */,
+				6F124F1827D109E900DF8BE9 /* Info.plist */,
+				6F3B82DA27C4C3F900428123 /* Services */,
+				6F3B82B727C10DCC00428123 /* GoogleService-Info.plist */,
+				6F3B82A627BE7D8E00428123 /* ViewModels-Intents */,
+				6F3B82A527BE7CB300428123 /* DTOs */,
+				6F3B82A427BE7CA200428123 /* Helpers */,
+				6F3B82A327BE7C7E00428123 /* Views */,
+				6F3B82A227BE7C6800428123 /* Models */,
+				6F3B829427BE7B6D00428123 /* ProjetAWI_IOSApp.swift */,
+				6F3B829827BE7B6E00428123 /* Assets.xcassets */,
+				6F3B829A27BE7B6E00428123 /* Preview Content */,
+			);
+			path = "ProjetAWI-IOS";
+			sourceTree = "<group>";
+		};
+		6F3B829A27BE7B6E00428123 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6F3B829B27BE7B6E00428123 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6F3B82A227BE7C6800428123 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6F3B82C127C1102700428123 /* Utilisateur.swift */,
+				6FB6532527C675480074EC91 /* Store.swift */,
+				6FB6533327C678010074EC91 /* Ingredient.swift */,
+				6FB6533527C678230074EC91 /* Allergène.swift */,
+				6FB6536F27CD227C0074EC91 /* Denree.swift */,
+				6FB6537127CD24120074EC91 /* Description.swift */,
+				6FB6537327CD255D0074EC91 /* Etape.swift */,
+				6FB6537527CD27BC0074EC91 /* HeaderFT.swift */,
+				6FB6537727CD2F790074EC91 /* FicheTechnique.swift */,
+				6F7B5A1527CFBF9E009E59BA /* Vente.swift */,
+				6F124F0927D00ACA00DF8BE9 /* Etiquette.swift */,
+				6F124F0B27D0125A00DF8BE9 /* DenreeEtiquette.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6F3B82A327BE7C7E00428123 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6FB6534E27C76D930074EC91 /* Allergène */,
+				6FB6534227C67CCD0074EC91 /* Ingredient */,
+				6FB6533027C676370074EC91 /* Preference */,
+				6F3B82CC27C11D7800428123 /* Utilisateur */,
+				6F3B82B427BFC52800428123 /* Fiche-Technique */,
+				6F3B82AF27BFBD2E00428123 /* Menu */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6F3B82A427BE7CA200428123 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6F3B82D027C11E5100428123 /* Design */,
+				6FB6534527C6DB870074EC91 /* String.swift */,
+				6FB6536927CCF0710074EC91 /* MultipleSelectionRow.swift */,
+				6F124F1627D0340800DF8BE9 /* PDF.swift */,
+				6FBF527927D41CED00EB79E8 /* Double.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6F3B82A527BE7CB300428123 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				6F3B82BE27C10F8300428123 /* UtilisateurDTO.swift */,
+				6FB6532727C675810074EC91 /* StoreDTO.swift */,
+				6FB6533727C679080074EC91 /* IngredientDTO.swift */,
+				6FB6533927C6794F0074EC91 /* AllergèneDTO.swift */,
+				6F7B5A0427CE78A4009E59BA /* HeaderFTDTO.swift */,
+				6F7B5A0627CE78B4009E59BA /* FicheTechniqueDTO.swift */,
+				6F7B5A0827CE7BA4009E59BA /* EtapeDTO.swift */,
+				6F7B5A0A27CE7C3A009E59BA /* DenreeDTO.swift */,
+				6F7B5A0C27CE7C68009E59BA /* DescriptionDTO.swift */,
+				6F7B5A1727CFC6B0009E59BA /* VenteDTO.swift */,
+				6F124F0D27D0186900DF8BE9 /* EtiquetteDTO.swift */,
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		6F3B82A627BE7D8E00428123 /* ViewModels-Intents */ = {
+			isa = PBXGroup;
+			children = (
+				6F124F1127D01F8800DF8BE9 /* Etiquette */,
+				6F124F0227CFCF5700DF8BE9 /* Categorie-Recette */,
+				6F7B5A1927CFC852009E59BA /* Vente */,
+				6F7B5A0E27CE8DFF009E59BA /* Fiche-Technique */,
+				6FB6536427CC012B0074EC91 /* Categorie-Ingredient */,
+				6FB6534927C76B9F0074EC91 /* Allergène */,
+				6FB6533D27C679DE0074EC91 /* Ingredient */,
+				6FB6532B27C675F10074EC91 /* Store */,
+				6F3B82C327C117C500428123 /* Utilisateur */,
+			);
+			path = "ViewModels-Intents";
+			sourceTree = "<group>";
+		};
+		6F3B82AF27BFBD2E00428123 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				6F3B82A927BE916400428123 /* MenuView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		6F3B82B427BFC52800428123 /* Fiche-Technique */ = {
+			isa = PBXGroup;
+			children = (
+				6F3B82A727BE8F4E00428123 /* FicheTechniqueListView.swift */,
+				6F124F0527CFD9F800DF8BE9 /* FicheTechniqueDetailView.swift */,
+				6F124F2027D165E800DF8BE9 /* MaterielView.swift */,
+				6F124F2227D1661D00DF8BE9 /* EtapeDetailView.swift */,
+				6F124F2427D1665F00DF8BE9 /* EtapeFicheView.swift */,
+				6F124F2627D1712300DF8BE9 /* DenreesView.swift */,
+				6F124F2827D1760B00DF8BE9 /* GestionCoutView.swift */,
+				6FBF526727D28C1000EB79E8 /* ChoixAjoutEtapeView.swift */,
+				6FBF526B27D2B69D00EB79E8 /* PrintFicheView.swift */,
+				6FBF526D27D2C04000EB79E8 /* PrintEtiquetteView.swift */,
+				6FBF526F27D2C91F00EB79E8 /* VenteView.swift */,
+				6FBF527327D34A3F00EB79E8 /* ChoixAjoutIngredientView.swift */,
+				6FBF527727D393AD00EB79E8 /* MutipleSelectionIngredient.swift */,
+			);
+			path = "Fiche-Technique";
+			sourceTree = "<group>";
+		};
+		6F3B82C327C117C500428123 /* Utilisateur */ = {
+			isa = PBXGroup;
+			children = (
+				6F3B82C727C1196700428123 /* UtilisateurIntent.swift */,
+				6F3B82C927C11AF200428123 /* Detail */,
+				6F3B82C427C117D000428123 /* Liste */,
+			);
+			path = Utilisateur;
+			sourceTree = "<group>";
+		};
+		6F3B82C427C117D000428123 /* Liste */ = {
+			isa = PBXGroup;
+			children = (
+				6F3B82C527C118AE00428123 /* UtilisateurListViewModel.swift */,
+			);
+			path = Liste;
+			sourceTree = "<group>";
+		};
+		6F3B82C927C11AF200428123 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				6F3B82CA27C11B1100428123 /* UtilisateurViewModel.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		6F3B82CC27C11D7800428123 /* Utilisateur */ = {
+			isa = PBXGroup;
+			children = (
+				6F3B82CE27C11D9C00428123 /* UtilisateurListView.swift */,
+				6F3B82D527C12A7500428123 /* UtilisateurDetailView.swift */,
+				6FB6532327C51D720074EC91 /* ConnexionView.swift */,
+				6FB6535727C8C3170074EC91 /* GestionCompteView.swift */,
+			);
+			path = Utilisateur;
+			sourceTree = "<group>";
+		};
+		6F3B82D027C11E5100428123 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				6F3B82B227BFC47600428123 /* Color.swift */,
+				6F3B82AB27BFB98200428123 /* UIColor.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		6F3B82DA27C4C3F900428123 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6F3B82DB27C4C44200428123 /* Utilisateur */,
+				6FB6532927C675C30074EC91 /* StoreService.swift */,
+				6FB6533B27C6798C0074EC91 /* IngredientService.swift */,
+				6FB6534727C767B20074EC91 /* AllergèneService.swift */,
+				6FB6536227CBFE900074EC91 /* CategorieIngredientService.swift */,
+				6F7B59FE27CD3CEF009E59BA /* FicheTechniqueService.swift */,
+				6F7B5A1327CFBEF8009E59BA /* VenteService.swift */,
+				6F124F0027CFCEA500DF8BE9 /* CategorieRecetteService.swift */,
+				6F124F0F27D01D4900DF8BE9 /* EtiquetteService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6F3B82DB27C4C44200428123 /* Utilisateur */ = {
+			isa = PBXGroup;
+			children = (
+				6F3B82DC27C4C45600428123 /* UtilisateurService.swift */,
+			);
+			path = Utilisateur;
+			sourceTree = "<group>";
+		};
+		6F7B5A0E27CE8DFF009E59BA /* Fiche-Technique */ = {
+			isa = PBXGroup;
+			children = (
+				6F7B5A0F27CE8E20009E59BA /* FicheTechniqueListViewModel.swift */,
+				6F7B5A1127CE8F3E009E59BA /* FicheTechniqueIntent.swift */,
+				6F124F0727CFDA5F00DF8BE9 /* FicheTechniqueDetailViewModel.swift */,
+				6FBF526927D2A43900EB79E8 /* EtapeDetailViewModel.swift */,
+				6FBF527527D36D1500EB79E8 /* EtapeIntent.swift */,
+			);
+			path = "Fiche-Technique";
+			sourceTree = "<group>";
+		};
+		6F7B5A1927CFC852009E59BA /* Vente */ = {
+			isa = PBXGroup;
+			children = (
+				6F7B5A1A27CFC86A009E59BA /* VenteIntent.swift */,
+				6F7B5A1C27CFC89E009E59BA /* VenteViewModel.swift */,
+			);
+			path = Vente;
+			sourceTree = "<group>";
+		};
+		6FB6532B27C675F10074EC91 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				6FB6532C27C676010074EC91 /* StoreIntent.swift */,
+				6FB6532E27C676210074EC91 /* StoreViewModel.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		6FB6533027C676370074EC91 /* Preference */ = {
+			isa = PBXGroup;
+			children = (
+				6FB6533127C676510074EC91 /* PreferenceView.swift */,
+			);
+			path = Preference;
+			sourceTree = "<group>";
+		};
+		6FB6533D27C679DE0074EC91 /* Ingredient */ = {
+			isa = PBXGroup;
+			children = (
+				6FB6533E27C67A090074EC91 /* IngredientListViewModel.swift */,
+				6FB6534027C67BA00074EC91 /* IngredientIntent.swift */,
+				6FB6535B27C90AB60074EC91 /* IngredientViewModel.swift */,
+			);
+			path = Ingredient;
+			sourceTree = "<group>";
+		};
+		6FB6534227C67CCD0074EC91 /* Ingredient */ = {
+			isa = PBXGroup;
+			children = (
+				6FB6534327C67CE90074EC91 /* IngredientListView.swift */,
+				6FB6535927C9095C0074EC91 /* IngredientDetailView.swift */,
+				6FB6536027CBE6980074EC91 /* IngredientCreateView.swift */,
+				6FB6536B27CCFD4F0074EC91 /* MultipleSelectionAllergène.swift */,
+			);
+			path = Ingredient;
+			sourceTree = "<group>";
+		};
+		6FB6534927C76B9F0074EC91 /* Allergène */ = {
+			isa = PBXGroup;
+			children = (
+				6FB6534A27C76BB60074EC91 /* AllergèneIntent.swift */,
+				6FB6534C27C76BCB0074EC91 /* AllergèneListViewModel.swift */,
+				6FB6535327C7BDCA0074EC91 /* AllergèneViewModel.swift */,
+			);
+			name = "Allergène";
+			path = "Allergène";
+			sourceTree = "<group>";
+		};
+		6FB6534E27C76D930074EC91 /* Allergène */ = {
+			isa = PBXGroup;
+			children = (
+				6FB6534F27C76DAD0074EC91 /* AllergèneListView.swift */,
+				6FB6535127C7BC9C0074EC91 /* AllergèneDetailView.swift */,
+				6FB6535527C80F880074EC91 /* AllergèneCreateView.swift */,
+			);
+			name = "Allergène";
+			path = "Allergène";
+			sourceTree = "<group>";
+		};
+		6FB6536427CC012B0074EC91 /* Categorie-Ingredient */ = {
+			isa = PBXGroup;
+			children = (
+				6FB6536527CC016E0074EC91 /* CategorieIngredientViewModel.swift */,
+			);
+			path = "Categorie-Ingredient";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F3B829027BE7B6D00428123 /* ProjetAWI-IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F3B829F27BE7B6E00428123 /* Build configuration list for PBXNativeTarget "ProjetAWI-IOS" */;
+			buildPhases = (
+				6F3B828D27BE7B6D00428123 /* Sources */,
+				6F3B828E27BE7B6D00428123 /* Frameworks */,
+				6F3B828F27BE7B6D00428123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ProjetAWI-IOS";
+			packageProductDependencies = (
+				6F3B82BA27C10F0F00428123 /* FirebaseFirestore */,
+				6F3B82BC27C10F0F00428123 /* FirebaseFirestoreSwift-Beta */,
+			);
+			productName = "ProjetAWI-IOS";
+			productReference = 6F3B829127BE7B6D00428123 /* ProjetAWI-IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F3B828927BE7B6D00428123 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					6F3B829027BE7B6D00428123 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 6F3B828C27BE7B6D00428123 /* Build configuration list for PBXProject "ProjetAWI-IOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F3B828827BE7B6D00428123;
+			packageReferences = (
+				6F3B82B927C10F0F00428123 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 6F3B829227BE7B6D00428123 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F3B829027BE7B6D00428123 /* ProjetAWI-IOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F3B828F27BE7B6D00428123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F3B829C27BE7B6E00428123 /* Preview Assets.xcassets in Resources */,
+				6F124F2F27D185C300DF8BE9 /* footer-etiquette.html in Resources */,
+				6F124F2D27D1852500DF8BE9 /* denree.html in Resources */,
+				6F124F1F27D15DE900DF8BE9 /* materiel.html in Resources */,
+				6F3B829927BE7B6E00428123 /* Assets.xcassets in Resources */,
+				6F124F1B27D156BA00DF8BE9 /* head-fiche.html in Resources */,
+				6F124F1D27D158F700DF8BE9 /* etape.html in Resources */,
+				6F3B82B827C10DCC00428123 /* GoogleService-Info.plist in Resources */,
+				6F124F2B27D183D000DF8BE9 /* head-etiquette.html in Resources */,
+				6FBF527227D2D3FE00EB79E8 /* couts.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F3B828D27BE7B6D00428123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F7B5A1B27CFC86A009E59BA /* VenteIntent.swift in Sources */,
+				6FB6537227CD24120074EC91 /* Description.swift in Sources */,
+				6F3B82AA27BE916400428123 /* MenuView.swift in Sources */,
+				6FB6537627CD27BC0074EC91 /* HeaderFT.swift in Sources */,
+				6FBF527427D34A3F00EB79E8 /* ChoixAjoutIngredientView.swift in Sources */,
+				6FB6535C27C90AB60074EC91 /* IngredientViewModel.swift in Sources */,
+				6FBF526E27D2C04000EB79E8 /* PrintEtiquetteView.swift in Sources */,
+				6F7B5A0727CE78B4009E59BA /* FicheTechniqueDTO.swift in Sources */,
+				6FBF527827D393AD00EB79E8 /* MutipleSelectionIngredient.swift in Sources */,
+				6FB6533A27C6794F0074EC91 /* AllergèneDTO.swift in Sources */,
+				6F7B59FF27CD3CEF009E59BA /* FicheTechniqueService.swift in Sources */,
+				6FB6535A27C9095C0074EC91 /* IngredientDetailView.swift in Sources */,
+				6FB6532627C675480074EC91 /* Store.swift in Sources */,
+				6F124F1727D0340800DF8BE9 /* PDF.swift in Sources */,
+				6FB6534827C767B20074EC91 /* AllergèneService.swift in Sources */,
+				6FBF526827D28C1000EB79E8 /* ChoixAjoutEtapeView.swift in Sources */,
+				6FBF526A27D2A43900EB79E8 /* EtapeDetailViewModel.swift in Sources */,
+				6F124F2927D1760B00DF8BE9 /* GestionCoutView.swift in Sources */,
+				6F3B82CB27C11B1100428123 /* UtilisateurViewModel.swift in Sources */,
+				6F3B82C627C118AE00428123 /* UtilisateurListViewModel.swift in Sources */,
+				6FB6535627C80F880074EC91 /* AllergèneCreateView.swift in Sources */,
+				6F3B82A827BE8F4E00428123 /* FicheTechniqueListView.swift in Sources */,
+				6FB6533C27C6798C0074EC91 /* IngredientService.swift in Sources */,
+				6FB6535827C8C3170074EC91 /* GestionCompteView.swift in Sources */,
+				6F124F1027D01D4900DF8BE9 /* EtiquetteService.swift in Sources */,
+				6F7B5A1627CFBF9E009E59BA /* Vente.swift in Sources */,
+				6FBF527627D36D1500EB79E8 /* EtapeIntent.swift in Sources */,
+				6F124F0E27D0186900DF8BE9 /* EtiquetteDTO.swift in Sources */,
+				6FB6535027C76DAD0074EC91 /* AllergèneListView.swift in Sources */,
+				6F124F0627CFD9F800DF8BE9 /* FicheTechniqueDetailView.swift in Sources */,
+				6F3B82B327BFC47600428123 /* Color.swift in Sources */,
+				6FB6537027CD227C0074EC91 /* Denree.swift in Sources */,
+				6FB6535427C7BDCA0074EC91 /* AllergèneViewModel.swift in Sources */,
+				6F3B82C827C1196700428123 /* UtilisateurIntent.swift in Sources */,
+				6F3B82BF27C10F8400428123 /* UtilisateurDTO.swift in Sources */,
+				6F7B5A1827CFC6B0009E59BA /* VenteDTO.swift in Sources */,
+				6F7B5A1027CE8E20009E59BA /* FicheTechniqueListViewModel.swift in Sources */,
+				6F3B82D627C12A7500428123 /* UtilisateurDetailView.swift in Sources */,
+				6FB6534627C6DB870074EC91 /* String.swift in Sources */,
+				6FB6534427C67CE90074EC91 /* IngredientListView.swift in Sources */,
+				6FB6532D27C676010074EC91 /* StoreIntent.swift in Sources */,
+				6FBF527A27D41CED00EB79E8 /* Double.swift in Sources */,
+				6F124F0C27D0125A00DF8BE9 /* DenreeEtiquette.swift in Sources */,
+				6FB6533227C676510074EC91 /* PreferenceView.swift in Sources */,
+				6FB6536127CBE6980074EC91 /* IngredientCreateView.swift in Sources */,
+				6F7B5A0527CE78A4009E59BA /* HeaderFTDTO.swift in Sources */,
+				6FB6536A27CCF0710074EC91 /* MultipleSelectionRow.swift in Sources */,
+				6FB6536C27CCFD4F0074EC91 /* MultipleSelectionAllergène.swift in Sources */,
+				6FB6532427C51D720074EC91 /* ConnexionView.swift in Sources */,
+				6FB6534B27C76BB60074EC91 /* AllergèneIntent.swift in Sources */,
+				6F3B829527BE7B6D00428123 /* ProjetAWI_IOSApp.swift in Sources */,
+				6FB6534127C67BA00074EC91 /* IngredientIntent.swift in Sources */,
+				6F124F1327D01F9A00DF8BE9 /* EtiquetteIntent.swift in Sources */,
+				6F124F1527D01FAF00DF8BE9 /* EtiquetteViewModel.swift in Sources */,
+				6F124F2127D165E800DF8BE9 /* MaterielView.swift in Sources */,
+				6F124F0827CFDA5F00DF8BE9 /* FicheTechniqueDetailViewModel.swift in Sources */,
+				6F124F0127CFCEA500DF8BE9 /* CategorieRecetteService.swift in Sources */,
+				6FB6533827C679080074EC91 /* IngredientDTO.swift in Sources */,
+				6F3B82C227C1102700428123 /* Utilisateur.swift in Sources */,
+				6F124F0427CFCF6C00DF8BE9 /* CategorieRecetteViewModel.swift in Sources */,
+				6F124F2327D1661D00DF8BE9 /* EtapeDetailView.swift in Sources */,
+				6FB6534D27C76BCB0074EC91 /* AllergèneListViewModel.swift in Sources */,
+				6FBF527027D2C91F00EB79E8 /* VenteView.swift in Sources */,
+				6FB6537427CD255D0074EC91 /* Etape.swift in Sources */,
+				6F3B82CF27C11D9C00428123 /* UtilisateurListView.swift in Sources */,
+				6FB6532827C675810074EC91 /* StoreDTO.swift in Sources */,
+				6FB6536627CC016E0074EC91 /* CategorieIngredientViewModel.swift in Sources */,
+				6F3B82AC27BFB98200428123 /* UIColor.swift in Sources */,
+				6F7B5A0B27CE7C3A009E59BA /* DenreeDTO.swift in Sources */,
+				6F7B5A1D27CFC89E009E59BA /* VenteViewModel.swift in Sources */,
+				6FB6536327CBFE900074EC91 /* CategorieIngredientService.swift in Sources */,
+				6FB6533627C678230074EC91 /* Allergène.swift in Sources */,
+				6F124F0A27D00ACB00DF8BE9 /* Etiquette.swift in Sources */,
+				6FB6535227C7BC9C0074EC91 /* AllergèneDetailView.swift in Sources */,
+				6FB6533427C678010074EC91 /* Ingredient.swift in Sources */,
+				6F7B5A1227CE8F3E009E59BA /* FicheTechniqueIntent.swift in Sources */,
+				6F124F2527D1665F00DF8BE9 /* EtapeFicheView.swift in Sources */,
+				6FB6533F27C67A090074EC91 /* IngredientListViewModel.swift in Sources */,
+				6F7B5A0D27CE7C68009E59BA /* DescriptionDTO.swift in Sources */,
+				6FBF526C27D2B69D00EB79E8 /* PrintFicheView.swift in Sources */,
+				6F3B82DD27C4C45600428123 /* UtilisateurService.swift in Sources */,
+				6FB6532F27C676210074EC91 /* StoreViewModel.swift in Sources */,
+				6FB6537827CD2F790074EC91 /* FicheTechnique.swift in Sources */,
+				6F7B5A1427CFBEF8009E59BA /* VenteService.swift in Sources */,
+				6F7B5A0927CE7BA4009E59BA /* EtapeDTO.swift in Sources */,
+				6FB6532A27C675C30074EC91 /* StoreService.swift in Sources */,
+				6F124F2727D1712300DF8BE9 /* DenreesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6F3B829D27BE7B6E00428123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F3B829E27BE7B6E00428123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F3B82A027BE7B6E00428123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ProjetAWI-IOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ProjetAWI-IOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.umontpellier.awi.ios.ProjetAWI-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F3B82A127BE7B6E00428123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ProjetAWI-IOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ProjetAWI-IOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.umontpellier.awi.ios.ProjetAWI-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F3B828C27BE7B6D00428123 /* Build configuration list for PBXProject "ProjetAWI-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F3B829D27BE7B6E00428123 /* Debug */,
+				6F3B829E27BE7B6E00428123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F3B829F27BE7B6E00428123 /* Build configuration list for PBXNativeTarget "ProjetAWI-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F3B82A027BE7B6E00428123 /* Debug */,
+				6F3B82A127BE7B6E00428123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6F3B82B927C10F0F00428123 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6F3B82BA27C10F0F00428123 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F3B82B927C10F0F00428123 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		6F3B82BC27C10F0F00428123 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F3B82B927C10F0F00428123 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6F3B828927BE7B6D00428123 /* Project object */;
+}
